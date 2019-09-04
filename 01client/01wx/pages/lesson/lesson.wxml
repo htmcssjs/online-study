@@ -13,24 +13,51 @@
   <scroll-view class='body' style='height:{{height}}rpx; ' scroll-y="true">
     <view class='scrollItem'>
       <view class='examinationView'>
-        <view class='title'>真题课程包</view>
         <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <image class='icon' src='../../imgs/index.png'></image>
           <view class='inforBox'>
             <view>
               <view class='inforTitle'>
-                真题课程包
+                AP:TI-Nspire
               </view>
               <view class='content'>
-                提分神奇，上岸必刷
+                 TI-Nspire 图形计算器使用教程——基本操作教学
               </view>
             </view>
-            <view class='buyBox'>
-              <view class='price'>
-                ￥798
+          </view>
+        </view>
+      </view>
+    </view>
+
+      <view class='scrollItem'>
+      <view class='examinationView'>
+        <view class='item' bindtap='toExaminationInfor'>
+          <image class='icon' src='../../imgs/index.png'></image>
+          <view class='inforBox'>
+            <view>
+              <view class='inforTitle'>
+                AP-Volume with Known Cross Sections
               </view>
-              <view class='number'>
-                2.3万人购买
+              <view class='content'>
+                《AP微积分满分教程》动画演示——已知截面固体体积（Volume with Known Cross Sections）
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+      <view class='scrollItem'>
+      <view class='examinationView'>
+        <view class='item' bindtap='toExaminationInfor'>
+          <image class='icon' src='../../imgs/index.png'></image>
+          <view class='inforBox'>
+            <view>
+              <view class='inforTitle'>
+                AP-Riemann Sum
+              </view>
+              <view class='content'>
+               《AP微积分满分教程》动画演示——黎曼和（Riemann Sum）
               </view>
             </view>
           </view>
@@ -40,24 +67,15 @@
 
      <view class='scrollItem'>
       <view class='examinationView'>
-        <view class='title'>真题课程包</view>
         <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <image class='icon' src='../../imgs/index.png'></image>
           <view class='inforBox'>
             <view>
               <view class='inforTitle'>
-                真题课程包
+                AP-Disk Method
               </view>
               <view class='content'>
-                提分神奇，上岸必刷
-              </view>
-            </view>
-            <view class='buyBox'>
-              <view class='price'>
-                ￥798
-              </view>
-              <view class='number'>
-                2.3万人购买
+                《AP微积分满分教程》动画演示——旋转体的体积圆盘法（Disk Method）
               </view>
             </view>
           </view>
@@ -65,11 +83,10 @@
       </view>
     </view>
 
-     <view class='scrollItem'>
+      <view class='scrollItem'>
       <view class='examinationView'>
-        <view class='title'>真题课程包</view>
         <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <image class='icon' src='../../imgs/index.png'></image>
           <view class='inforBox'>
             <view>
               <view class='inforTitle'>
@@ -79,24 +96,15 @@
                 提分神奇，上岸必刷
               </view>
             </view>
-            <view class='buyBox'>
-              <view class='price'>
-                ￥798
-              </view>
-              <view class='number'>
-                2.3万人购买
-              </view>
-            </view>
           </view>
         </view>
       </view>
     </view>
 
-     <view class='scrollItem'>
+      <view class='scrollItem'>
       <view class='examinationView'>
-        <view class='title'>真题课程包</view>
         <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <image class='icon' src='../../imgs/index.png'></image>
           <view class='inforBox'>
             <view>
               <view class='inforTitle'>
@@ -106,24 +114,15 @@
                 提分神奇，上岸必刷
               </view>
             </view>
-            <view class='buyBox'>
-              <view class='price'>
-                ￥798
-              </view>
-              <view class='number'>
-                2.3万人购买
-              </view>
-            </view>
           </view>
         </view>
       </view>
     </view>
 
-     <view class='scrollItem'>
+      <view class='scrollItem'>
       <view class='examinationView'>
-        <view class='title'>真题课程包</view>
         <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <image class='icon' src='../../imgs/index.png'></image>
           <view class='inforBox'>
             <view>
               <view class='inforTitle'>
@@ -133,75 +132,19 @@
                 提分神奇，上岸必刷
               </view>
             </view>
-            <view class='buyBox'>
-              <view class='price'>
-                ￥798
-              </view>
-              <view class='number'>
-                2.3万人购买
-              </view>
-            </view>
           </view>
         </view>
       </view>
     </view>
-
-     <view class='scrollItem'>
-      <view class='examinationView'>
-        <view class='title'>真题课程包</view>
-        <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
-          <view class='inforBox'>
-            <view>
-              <view class='inforTitle'>
-                真题课程包
-              </view>
-              <view class='content'>
-                提分神奇，上岸必刷
-              </view>
-            </view>
-            <view class='buyBox'>
-              <view class='price'>
-                ￥798
-              </view>
-              <view class='number'>
-                2.3万人购买
-              </view>
-            </view>
-          </view>
-        </view>
-      </view>
-    </view>
-
-     <view class='scrollItem'>
-      <view class='examinationView'>
-        <view class='title'>真题课程包</view>
-        <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
-          <view class='inforBox'>
-            <view>
-              <view class='inforTitle'>
-                真题课程包
-              </view>
-              <view class='content'>
-                提分神奇，上岸必刷
-              </view>
-            </view>
-            <view class='buyBox'>
-              <view class='price'>
-                ￥798
-              </view>
-              <view class='number'>
-                2.3万人购买
-              </view>
-            </view>
-          </view>
-        </view>
-      </view>
-    </view>
-
+    
+  <!-- 作者 -->
+  <view class="author"> 
+      新浪微博：数学孙宗义
+      <view></view>
+      链接：https://weibo.com/u/7283004604
+  </view>
   </scroll-view>
-
-
+  
+   
 
 </view>
