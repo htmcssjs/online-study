@@ -1,106 +1,209 @@
-
 .container {
   display: flex;
   flex-direction: column;
   width: 750rpx;
 }
-.container .head{
+
+.container .head {
   display: flex;
   flex-direction: row;
-line-height: 50rpx;
+  line-height: 50rpx;
+  margin: 30rpx 0;
+  padding: 0 20rpx;
 }
-.head .first-img{
-   width: 150rpx;
-   height: 150rpx;
-   margin-right: 20rpx;
 
+.head .first-img {
+  width: 150rpx;
+  height: 150rpx;
+  margin-right: 40rpx;
+  border-radius: 75rpx;
 }
-.head .second-img{
-  width: 40rpx;
-   height: 40rpx; 
+
+.head-second-1 {
+  width: 135rpx;
+  height: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 20rpx 0 0 0;
 }
-.head-second-1{
-   font-weight: 700;
-   font-size: 40rpx;
-}
-.head-second-2{
+
+.head-name {
+  font-weight: 700;
+  font-size: 40rpx;
   margin-top: 20rpx;
-  font-size: 30rpx;
-  font-weight: 400;
 }
 
+.head-icon-change {
+  margin-top: 24rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
 
-.course{
-   display: flex;
+.modelBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 999;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+}
+
+.modalChange {
+  width: 70%;
+  position: fixed;
+  top: 350rpx;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.windowRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 110rpx;
+  width: 100%;
+}
+
+.userTitle {
+  font-size: 30rpx;
+  color: #666;
+  margin: 30rpx;
+}
+
+.newName {
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  margin-bottom: 30rpx;
+}
+
+.newName-input {
+  border: 1rpx solid #999;
+  width: 80%;
+  border-radius: 20rpx;
+  padding-left: 10rpx;
+}
+
+.modelButtonBox {
+  width: 100%;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modelButton {
+  width: 30%;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  margin-bottom: 30rpx;
+  border-radius: 15rpx;
+}
+
+.modelButton-yes {
+  background-color: #21aaff;
+  color: #fbf1e8;
+  border: 0;
+  margin-left: 65rpx;
+}
+
+.modelButton-back {
+  color: #21aaff;
+  border: 2rpx solid #999;
+  background-color: #fff;
+  margin-right: 65rpx;
+}
+
+.course {
+  display: flex;
   flex-direction: column;
   border-radius: 20rpx;
   width: 750rpx;
   height: 190rpx;
-   background: linear-gradient(to right,rgb(222, 226, 235),rgb(229, 235, 236));
-   padding: 30rpx;
-  
+  background: linear-gradient(to right, rgb(222, 226, 235), rgb(229, 235, 236));
+  padding: 30rpx;
 }
-.course .course-first{
-     display: flex;
-    flex-direction: row;
-    justify-content :space-between;
-    font-size: 30rpx;
-    color: #21AAFF;
+
+.course .course-first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30rpx;
+  color: #21aaff;
 }
-.course .course-first-my{
+
+.course .course-first-my {
   font-size: 40rpx;
 }
-.course-first-img{
+
+.course-first-img {
   height: 30rpx;
   width: 30rpx;
   margin-right: 30rpx;
 }
-.course-second{
-   display: flex;
+
+.course-second {
+  display: flex;
   flex-direction: row;
   margin-top: 100rpx;
 }
-.course-second .first{
-  color:#21AAFF;
+
+.course-second .first {
+  color: #21aaff;
   font-size: 30rpx;
-  border: 1rpx solid #21AAFF;
+  border: 1rpx solid #21aaff;
   border-radius: 30rpx;
   padding: 10rpx;
   margin-right: 30rpx;
 }
-.course-second .second{
-    color: white;
+
+.course-second .second {
+  color: white;
   font-size: 25rpx;
   margin-top: 20rpx;
 }
 
-
-.management{
+.management {
   display: flex;
   flex-direction: column;
   margin-top: 50rpx;
-
 }
 
-.management-text{
+.management-text {
   display: flex;
   flex-direction: row;
-  justify-content :space-between;
+  justify-content: space-between;
   margin-top: 40rpx;
 }
 
-.management-text .first{
-   display: flex;
+.management-text .first {
+  display: flex;
   flex-direction: row;
   font-size: 30rpx;
-} 
-.management-text-img1{
+}
+
+.management-text-img1 {
   width: 50rpx;
   height: 50rpx;
   margin-right: 20rpx;
 }
-.management-text-img2{
-   width: 35rpx;
-   height: 35rpx;
- 
+
+.management-text-img2 {
+  width: 35rpx;
+  height: 35rpx;
 }

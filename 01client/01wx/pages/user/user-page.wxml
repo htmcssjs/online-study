@@ -2,58 +2,76 @@
 <view class="container">
   <view class="head">
     <view>
-      <image class='first-img' src='../../imgs/user-head.png'></image>
+      <image class='first-img' bindtap="chooseImage" src='{{tempFilePaths}}'></image>
     </view>
     <view class="head-second-1">
-      啊啊啊
+      <view class="head-name">{{userName}}</view>
+      <image class="head-icon-change" bindtap="changeName" src="../../imgs/user/修改.png"></image>
     </view>
   </view>
+  <view class="modelBox" catchtouchmove='preventTouchMove' wx:if='{{showModal}}'></view>
+  <view class="modalChange" catchtouchmove='preventTouchMove' wx:if='{{showModal}}'>
+    <view class='windowRow'>
+      <text class='userTitle'>修改名称</text>
+    </view>
+    <view class='newName'>
+      <input bindinput='newNameInput' placeholder=' {{userName}}' class='newName-input'></input>
+    </view>
+    <view class='modelButtonBox'>
+      <view class='modelButton modelButton-yes' bindtap='ok'>确定</view>
+      <view class='modelButton modelButton-back' bindtap='back'>返回</view>
+    </view>
+  </view>
+
   <view class="course">
-     <view class="course-first">
-        <view class="course-first course-first-my">我的课程</view>
-        <view>查看全部
-        <image class="course-first-img" src='../../imgs/方向1.png'></image>
-        </view>
-     </view>
-     <view class="course-second">
-         <view class="first">
-             <image class="course-first-img" src='../../imgs/播放.png'></image>
-             继续观看
-         </view>
-     </view>
+    <view class="course-first">
+      <view class="course-first course-first-my">我的课程</view>
+      <view>查看全部
+        <image class="course-first-img" src='../../imgs/user/方向1.png'></image>
+      </view>
+    </view>
+    <view class="course-second">
+      <view class="first">
+        <image class="course-first-img" src='../../imgs/user/播放.png'></image>
+        继续观看
+      </view>
+    </view>
   </view>
   <view class="management">
-      <view class="management-text">
-         <view class="first">
-           <view> 
-           <image class="management-text-img1" src='../../imgs/下载.png'></image></view>
-           <view>下载管理</view>
-         </view>
-         <view>
-             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
-         </view>
+    <view class="management-text">
+      <view class="first">
+        <view>
+          <image class="management-text-img1" src='../../imgs/user/下载.png'></image>
+        </view>
+        <view>下载管理</view>
       </view>
+      <view>
+        <image class="management-text-img2" src='../../imgs/user/方向2.png'></image>
+      </view>
+    </view>
 
-      <view class="management-text">
-         <view class="first">
-           <view> 
-           <image class="management-text-img1" src='../../imgs/错题.png'></image></view>
-           <view>我的错题</view>
-         </view>
-         <view>
-             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
-         </view>
+    <view class="management-text">
+      <view class="first">
+        <view>
+          <image class="management-text-img1" src='../../imgs/user/错题.png'></image>
+        </view>
+        <view>我的错题</view>
       </view>
-      <view class="management-text">
-         <view class="first">
-           <view> 
-           <image   class="management-text-img1" src='../../imgs/五角星.png'></image></view>
-           <view>我的收藏</view>
-         </view>
-         <view>
-             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
-         </view>
+      <view>
+        <image class="management-text-img2" src='../../imgs/user/方向2.png'></image>
       </view>
-      
+    </view>
+    <view class="management-text">
+      <view class="first">
+        <view>
+          <image class="management-text-img1" src='../../imgs/user/五角星.png'></image>
+        </view>
+        <view>我的收藏</view>
+      </view>
+      <view>
+        <image class="management-text-img2" src='../../imgs/user/方向2.png'></image>
+      </view>
+    </view>
+
   </view>
 </view>
