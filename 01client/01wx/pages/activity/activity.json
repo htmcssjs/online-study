@@ -1,7 +1,7 @@
 {
-  "navigationBarBackgroundColor": "#16A2D2",
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "视频讲解",
-  "backgroundColor": "#eeeeee",
-  "backgroundTextStyle": "light"
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "课程详情",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
 }

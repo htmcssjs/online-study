@@ -1,1 +1,23 @@
 /* pages/examinationInfor/examinationInfor.wxss */
+.btn-area{
+    margin: 20rpx
+}
+.btn-area button{
+    margin-top: 20rpx
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+.introduction .first{
+    margin-top: 20rpx;
+    font-size: 40rpx;
+    margin-left: 20rpx;
+    margin-bottom: -20rpx;
+    font-weight: bold
+}
+.introduction .second{
+    margin: 10rpx;
+    font-size: 33rpx
+}

@@ -1,8 +1,17 @@
 <!--pages/examinationInfor/examinationInfor.wxml-->
 <view class="section tc">
-  <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" enable-danmu danmu-btn controls></video>
-  <view class="btn-area">
-    <input bindblur="bindInputBlur"/>
-    <button bindtap="bindSendDanmu">发送弹幕</button>
-  </view>
+    <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+        enable-danmu danmu-btn controls></video>
+    <view class="btn-area">
+        <input bindblur="bindInputBlur" placeholder="请输入弹幕" />
+        <button bindtap="bindSendDanmu">发送弹幕</button>
+    </view>
+    <view class="introduction">
+        <text class="first">课程介绍</text>
+        <text class="second">
+               概率论与数理统计课程既是数学与应用数学和信息与计算科学专业的专业必修课，也是非数学类各专业的一门重要的基础数学课程。作为现代数学的一个重要分支，它主要研究自然界、人类社会及技术过程中大量随机现象的统计性规律。其理论与方法不仅被广泛应用于自然科学、社会科学、管理科学以及工农业生产中，而且不断地与其它学科相互融合和渗透。该课程在培养学生的理性精神、逻辑推理能力、抽象思维能力、随机事件应对能力、处理数据能力和综合素质等方面有着独特和不可替代的作用，对实现各类专业培养研究型、探索型、创新型人才提供了科学研究和基础实践的平台。
+            </text>
+
+
+    </view>
 </view>

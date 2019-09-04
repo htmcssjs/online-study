@@ -1,7 +1,7 @@
 {
-  "navigationBarBackgroundColor": "#2099FF",
-  "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "发现",
-  "backgroundColor": "#eeeeee",
-  "backgroundTextStyle": "light"
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "发现",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
 }

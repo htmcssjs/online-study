@@ -33,7 +33,7 @@ Page({
         wx.getSystemInfo({
             success: function (res) {
                 //计算屏幕的高度
-                let buffer = (750 / res.windowWidth) * res.windowHeight - 400;
+                let buffer = (750 / res.windowWidth) * res.windowHeight - 80;
                 that.setData({
                     height: buffer
                 });

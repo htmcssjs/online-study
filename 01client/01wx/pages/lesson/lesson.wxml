@@ -14,7 +14,7 @@
     <view class='scrollItem'>
       <view class='examinationView'>
         <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/index.png'></image>
+          <image class='icon' src='https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg '></image>
           <view class='inforBox'>
             <view>
               <view class='inforTitle'>
@@ -32,7 +32,7 @@
       <view class='scrollItem'>
       <view class='examinationView'>
         <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/index.png'></image>
+          <image class='icon' src='https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg '></image>
           <view class='inforBox'>
             <view>
               <view class='inforTitle'>
@@ -50,7 +50,7 @@
       <view class='scrollItem'>
       <view class='examinationView'>
         <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/index.png'></image>
+          <image class='icon' src='https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg '></image>
           <view class='inforBox'>
             <view>
               <view class='inforTitle'>
@@ -68,7 +68,7 @@
      <view class='scrollItem'>
       <view class='examinationView'>
         <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/index.png'></image>
+          <image class='icon' src='https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg '></image>
           <view class='inforBox'>
             <view>
               <view class='inforTitle'>
@@ -86,7 +86,7 @@
       <view class='scrollItem'>
       <view class='examinationView'>
         <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/index.png'></image>
+          <image class='icon' src='https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg '></image>
           <view class='inforBox'>
             <view>
               <view class='inforTitle'>
@@ -101,42 +101,7 @@
       </view>
     </view>
 
-      <view class='scrollItem'>
-      <view class='examinationView'>
-        <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/index.png'></image>
-          <view class='inforBox'>
-            <view>
-              <view class='inforTitle'>
-                真题课程包
-              </view>
-              <view class='content'>
-                提分神奇，上岸必刷
-              </view>
-            </view>
-          </view>
-        </view>
-      </view>
-    </view>
-
-      <view class='scrollItem'>
-      <view class='examinationView'>
-        <view class='item' bindtap='toExaminationInfor'>
-          <image class='icon' src='../../imgs/index.png'></image>
-          <view class='inforBox'>
-            <view>
-              <view class='inforTitle'>
-                真题课程包
-              </view>
-              <view class='content'>
-                提分神奇，上岸必刷
-              </view>
-            </view>
-          </view>
-        </view>
-      </view>
-    </view>
-    
+     
   <!-- 作者 -->
   <view class="author"> 
      

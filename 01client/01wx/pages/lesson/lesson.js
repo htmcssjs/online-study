@@ -6,9 +6,9 @@ Page({
    */
   data: {
     imgUrls: [
-      'http://h.hiphotos.baidu.com/image/pic/item/2f738bd4b31c87018e9450642a7f9e2f0708ff16.jpg',
-      'http://e.hiphotos.baidu.com/image/pic/item/83025aafa40f4bfb0f815ad60e4f78f0f63618db.jpg',
-      'http://f.hiphotos.baidu.com/image/pic/item/7c1ed21b0ef41bd5f81eae7e5cda81cb38db3dee.jpg'
+      'https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg ',
+      'https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg ',
+      'https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg '
     ]
   },
 

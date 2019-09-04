@@ -56,39 +56,4 @@
       </view>
       
   </view>
-
-  <view class="management">
-      <view class="management-text">
-         <view class="first">
-           <view> 
-           <image class="management-text-img1" src='../../imgs/好友.png'></image></view>
-           <view>推荐好友</view>
-         </view>
-         <view>
-             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
-         </view>
-      </view>
-
-      <view class="management-text">
-         <view class="first">
-           <view> 
-           <image class="management-text-img1" src='../../imgs/优惠券.png'></image></view>
-           <view>我的优惠券</view>
-         </view>
-         <view>
-             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
-         </view>
-      </view>
-      <view class="management-text">
-         <view class="first">
-           <view> 
-           <image class="management-text-img1" src='../../imgs/订单.png'></image></view>
-           <view>订单记录</view>
-         </view>
-         <view>
-             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
-         </view>
-      </view>
-      
-  </view>
 </view>
