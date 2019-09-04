@@ -4,9 +4,9 @@
     <view>
       <image class='first-img' bindtap="chooseImage" src='{{tempFilePaths}}'></image>
     </view>
-    <view class="head-second-1">
+    <view class="head-nameBox">
       <view class="head-name">{{userName}}</view>
-      <image class="head-icon-change" bindtap="changeName" src="../../imgs/user/修改.png"></image>
+      <image class="head-icon-change" bindtap="changeName" src="../../imgs/user/change.png"></image>
     </view>
   </view>
   <view class="modelBox" catchtouchmove='preventTouchMove' wx:if='{{showModal}}'></view>
@@ -25,14 +25,15 @@
 
   <view class="course">
     <view class="course-first">
-      <view class="course-first course-first-my">我的课程</view>
-      <view>查看全部
-        <image class="course-first-img" src='../../imgs/user/方向1.png'></image>
+      <view class="course-first-my">我的课程</view>
+      <view class="course-first-lookAllBox">
+        <text class="course-first-text">查看全部</text>
+        <image class="course-first-img" src='../../imgs/user/right-white-icon.png'></image>
       </view>
     </view>
     <view class="course-second">
       <view class="first">
-        <image class="course-first-img" src='../../imgs/user/播放.png'></image>
+        <image class="course-first-img" src='../../imgs/user/bofang-white-icon.png'></image>
         继续观看
       </view>
     </view>
@@ -42,12 +43,12 @@
       <view class="management-text">
         <view class="first">
           <view>
-            <image class="management-text-img1" src='../../imgs/user/下载.png'></image>
+            <image class="management-text-img1" src='../../imgs/user/download-icon.png'></image>
           </view>
-          <view>下载管理</view>
+          <view class="tool">下载管理</view>
         </view>
         <view>
-          <image class="management-text-img2" src='../../imgs/user/方向2.png'></image>
+          <image class="management-text-img2" src='../../imgs/user/right-black-icon.png'></image>
         </view>
       </view>
     </navigator>
@@ -56,14 +57,14 @@
       <view class="management-text">
         <view class="first">
           <view>
-            <image class="management-text-img1" src='../../imgs/错题.png'></image>
+            <image class="management-text-img1" src='../../imgs/user/wrong-icon.png'></image>
           </view>
           <view class="tool">
             我的错题
           </view>
         </view>
         <view>
-          <image class="management-text-img2" src='../../imgs/方向2.png'></image>
+          <image class="management-text-img2" src='../../imgs/user/right-black-icon.png'></image>
         </view>
       </view>
     </navigator>
@@ -72,12 +73,12 @@
       <view class="management-text">
         <view class="first">
           <view>
-            <image class="management-text-img1" src='../../imgs/五角星.png'></image>
+            <image class="management-text-img1" src='../../imgs/user/shoucang-icon.png'></image>
           </view>
           <view class="tool">我的收藏</view>
         </view>
         <view>
-          <image class="management-text-img2" src='../../imgs/方向2.png'></image>
+          <image class="management-text-img2" src='../../imgs/user/right-black-icon.png'></image>
         </view>
       </view>
     </navigator>
