@@ -43,7 +43,7 @@
       <view class="management-text">
         <view class="first">
           <view>
-            <image class="management-text-img1" src='../../imgs/user/download-icon.png'></image>
+            <image class="management-text-img1" src='../../imgs/user/download-null.png'></image>
           </view>
           <view class="tool">下载管理</view>
         </view>
