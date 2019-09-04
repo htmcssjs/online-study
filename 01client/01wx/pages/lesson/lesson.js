@@ -30,7 +30,7 @@ Page({
   },
   toExaminationInfor: function () {
     wx.navigateTo({
-      url: '../examinationInfor/examinationInfor',
+      url: '../activity/activity',
     })
   },
 

@@ -1,2 +1,74 @@
-<!--pages/find/find.wxml-->
-<text>pages/find/find.wxml</text>
+<!--index.wxml-->
+<view class="container">
+    <view class="header">
+        <image src="../../imgs/index.png"></image>
+        <image src="../../imgs/user.png"></image>
+    </view>
+    <scroll-view class='headerBox' scroll-x="true">
+        <view class='headerItem' wx:for="{{topics}}" wx:key="index" wx:for-item="topic">
+            <view class='headerItemView' bindtap='clickTopItem' data-yjs="{{index}}">
+                <view class='{{indexSelect==index?"titleSelect":"title"}}'>{{topic.title}}</view>
+                <view class='line' wx:if="{{indexSelect==index}}"></view>
+            </view>
+        </view>
+    </scroll-view>
+    <view class='divider'></view>
+
+    <scroll-view style='height:{{height}}rpx; ' scroll-y="true">
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+                <view class="bottom">活动 两周前</view>
+
+            </view>
+            <image class="item_right" src="../../imgs/index.png"></image>
+        </view>
+        <view class='divider'></view>
+
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">《MBA大师十二时辰》试卷答案公布！你答对几道？！</view>
+                <view class="bottom">活动 两周前</view>
+
+            </view>
+            <image class="item_right" src="../../imgs/index.png"></image>
+        </view>
+        <view class='divider'></view>
+
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+                <view class="bottom">活动 两周前</view>
+
+            </view>
+            <image class="item_right" src="../../imgs/index.png"></image>
+        </view>
+        <view class='divider'></view>
+
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+                <view class="bottom">活动 两周前</view>
+
+            </view>
+            <image class="item_right" src="../../imgs/index.png"></image>
+        </view>
+        <view class='divider'></view>
+
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+                <view class="bottom">活动 两周前</view>
+
+            </view>
+            <image class="item_right" src="../../imgs/index.png"></image>
+        </view>
+        <view class='divider'></view>
+
+
+    </scroll-view>
+
+
+
+
+</view>

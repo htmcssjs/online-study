@@ -35,7 +35,7 @@ line-height: 50rpx;
   flex-direction: column;
   border-radius: 20rpx;
   width: 750rpx;
-  height: 200rpx;
+  height: 190rpx;
    background: linear-gradient(to right,#2066FF,#21D7FF);
    padding: 30rpx;
   
