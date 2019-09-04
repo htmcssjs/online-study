@@ -62,8 +62,9 @@
   margin-left: 50rpx;
   border-radius: 20rpx;
   width: 600rpx;
-  height: 180rpx;
+  height: 150rpx;
   color: white;
-  background: linear-gradient(red 20%, yellow 50%, blue 70%);
+  font-size: 35rpx;
+  background: linear-gradient(rgb(153, 184, 243) 20%,rgb(48, 124, 224) 40%, rgb(32, 100, 226) 60%, blue 80%);
   padding: 30rpx;
 }
