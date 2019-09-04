@@ -1,0 +1,104 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="head">
+    <view>
+      <image class='first-img' src='../../imgs/user-head.png'></image>
+    </view>
+    <view class="head-second-1">
+      <view>
+        sandy
+        <image class="second-img" src='../../imgs/王冠.png'></image>
+      </view>
+      <view class="head-second-2">
+        <image class="second-img" src='../../imgs/金币.png'></image> 
+        100
+      </view>
+    </view>
+  </view>
+  <view class="course">
+     <view class="course-first">
+        <view class="course-first course-first-my">我的课程</view>
+        <view>查看全部
+        <image class="course-first-img" src='../../imgs/方向1.png'></image>
+        </view>
+     </view>
+     <view class="course-second">
+         <view class="first">
+             <image class="course-first-img" src='../../imgs/播放.png'></image>
+             继续观看
+         </view>
+         <view class="second">
+            全新逻辑系统课一形式逻辑
+         </view>
+     </view>
+  </view>
+  <view class="management">
+      <view class="management-text">
+         <view class="first">
+           <view> 
+           <image class="management-text-img1" src='../../imgs/下载.png'></image></view>
+           <view>下载管理</view>
+         </view>
+         <view>
+             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
+         </view>
+      </view>
+
+      <view class="management-text">
+         <view class="first">
+           <view> 
+           <image class="management-text-img1" src='../../imgs/错题.png'></image></view>
+           <view>我的错题</view>
+         </view>
+         <view>
+             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
+         </view>
+      </view>
+      <view class="management-text">
+         <view class="first">
+           <view> 
+           <image   class="management-text-img1" src='../../imgs/五角星.png'></image></view>
+           <view>我的收藏</view>
+         </view>
+         <view>
+             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
+         </view>
+      </view>
+      
+  </view>
+
+  <view class="management">
+      <view class="management-text">
+         <view class="first">
+           <view> 
+           <image class="management-text-img1" src='../../imgs/好友.png'></image></view>
+           <view>推荐好友</view>
+         </view>
+         <view>
+             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
+         </view>
+      </view>
+
+      <view class="management-text">
+         <view class="first">
+           <view> 
+           <image class="management-text-img1" src='../../imgs/优惠券.png'></image></view>
+           <view>我的优惠券</view>
+         </view>
+         <view>
+             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
+         </view>
+      </view>
+      <view class="management-text">
+         <view class="first">
+           <view> 
+           <image class="management-text-img1" src='../../imgs/订单.png'></image></view>
+           <view>订单记录</view>
+         </view>
+         <view>
+             <image class="management-text-img2" src='../../imgs/方向2.png'></image>
+         </view>
+      </view>
+      
+  </view>
+</view>
