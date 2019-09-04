@@ -3,9 +3,12 @@
     "pages/user/user-page",
     "pages/lesson/lesson",
     "pages/find/find",
-    "pages/activity/activity"
+    "pages/activity/activity",
+    "pages/wrong/wrong",
+    "pages/favorite/favorite",
+    "pages/download/download"
   ],
-  "window": { 
+  "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",

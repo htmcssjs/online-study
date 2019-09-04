@@ -1,0 +1,30 @@
+/* pages/favorite/favorite.wxss */
+
+.container {
+  width: 750rpx;
+}
+.box {
+  margin:  0 auto;
+  width: 700rpx;
+  height: 290rpx;
+}
+.box0 {
+  margin: 40rpx 0;
+  width: 700rpx;
+  height: 250rpx;
+  border-radius: 20rpx;
+  background: -webkit-linear-gradient(left,rgb(132, 167, 219), white);
+}
+.boxFavorite{
+  margin: 30rpx  0 0 50rpx;
+  width: 600rpx;
+  padding-top: 10rpx;
+}
+.favorite01{
+  margin: 35rpx 0;
+  font-size: 40rpx;
+}
+.favorite02{
+  color: rgb(105, 103, 103);
+  font-size: 35rpx;
+}

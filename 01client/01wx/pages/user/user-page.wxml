@@ -38,40 +38,49 @@
     </view>
   </view>
   <view class="management">
-    <view class="management-text">
-      <view class="first">
-        <view>
-          <image class="management-text-img1" src='../../imgs/user/下载.png'></image>
+    <navigator url="/pages/download/download" open-type="navigateTo">
+      <view class="management-text">
+        <view class="first">
+          <view>
+            <image class="management-text-img1" src='../../imgs/user/下载.png'></image>
+          </view>
+          <view>下载管理</view>
         </view>
-        <view>下载管理</view>
+        <view>
+          <image class="management-text-img2" src='../../imgs/user/方向2.png'></image>
+        </view>
       </view>
-      <view>
-        <image class="management-text-img2" src='../../imgs/user/方向2.png'></image>
-      </view>
-    </view>
+    </navigator>
 
-    <view class="management-text">
-      <view class="first">
-        <view>
-          <image class="management-text-img1" src='../../imgs/user/错题.png'></image>
+    <navigator url="/pages/wrong/wrong" open-type="navigateTo">
+      <view class="management-text">
+        <view class="first">
+          <view>
+            <image class="management-text-img1" src='../../imgs/错题.png'></image>
+          </view>
+          <view class="tool">
+            我的错题
+          </view>
         </view>
-        <view>我的错题</view>
-      </view>
-      <view>
-        <image class="management-text-img2" src='../../imgs/user/方向2.png'></image>
-      </view>
-    </view>
-    <view class="management-text">
-      <view class="first">
         <view>
-          <image class="management-text-img1" src='../../imgs/user/五角星.png'></image>
+          <image class="management-text-img2" src='../../imgs/方向2.png'></image>
         </view>
-        <view>我的收藏</view>
       </view>
-      <view>
-        <image class="management-text-img2" src='../../imgs/user/方向2.png'></image>
+    </navigator>
+
+    <navigator url="/pages/favorite/favorite" open-type="navigateTo">
+      <view class="management-text">
+        <view class="first">
+          <view>
+            <image class="management-text-img1" src='../../imgs/五角星.png'></image>
+          </view>
+          <view class="tool">我的收藏</view>
+        </view>
+        <view>
+          <image class="management-text-img2" src='../../imgs/方向2.png'></image>
+        </view>
       </view>
-    </view>
+    </navigator>
 
   </view>
 </view>
