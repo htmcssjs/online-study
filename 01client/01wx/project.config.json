@@ -13,9 +13,9 @@
 		"coverView": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.8.1",
-	"appid": "wx3f8ba8070ef1ecdf",
-	"projectname": "online%20study",
+	"libVersion": "2.0.4",
+	"appid": "wx7d45eedc8e7ed027",
+	"projectname": "node",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
