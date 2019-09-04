@@ -65,6 +65,6 @@
   height: 150rpx;
   color: white;
   font-size: 35rpx;
-  background: linear-gradient(rgb(153, 184, 243) 20%,rgb(48, 124, 224) 40%, rgb(32, 100, 226) 60%, blue 80%);
+  background: linear-gradient(rgb(141, 178, 247) 20%,rgb(48, 124, 224) 40%, rgb(32, 100, 226) 60%, blue 80%);
   padding: 30rpx;
 }

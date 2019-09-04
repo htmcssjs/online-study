@@ -36,7 +36,7 @@ line-height: 50rpx;
   border-radius: 20rpx;
   width: 750rpx;
   height: 190rpx;
-   background: linear-gradient(to right,#2066FF,#21D7FF);
+   background: linear-gradient(to right,rgb(222, 226, 235),rgb(229, 235, 236));
    padding: 30rpx;
   
 }
@@ -45,7 +45,7 @@ line-height: 50rpx;
     flex-direction: row;
     justify-content :space-between;
     font-size: 30rpx;
-    color: white;
+    color: #21AAFF;
 }
 .course .course-first-my{
   font-size: 40rpx;
@@ -61,9 +61,9 @@ line-height: 50rpx;
   margin-top: 100rpx;
 }
 .course-second .first{
-  color: white;
+  color:#21AAFF;
   font-size: 30rpx;
-  border: 1rpx solid #F0F1F6;
+  border: 1rpx solid #21AAFF;
   border-radius: 30rpx;
   padding: 10rpx;
   margin-right: 30rpx;
