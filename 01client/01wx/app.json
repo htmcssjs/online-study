@@ -2,7 +2,8 @@
   "pages": [
     "pages/lesson/lesson",
     "pages/find/find",
-    "pages/user/user-page"
+    "pages/user/user-page",
+    "pages/examinationInfor/examinationInfor"
   ],
   "window": {
     "backgroundTextStyle": "light",

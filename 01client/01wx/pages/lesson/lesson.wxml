@@ -9,4 +9,199 @@
     </swiper>
   </view>
   
+  
+  <scroll-view class='body' style='height:{{height}}rpx; ' scroll-y="true">
+    <view class='scrollItem'>
+      <view class='examinationView'>
+        <view class='title'>真题课程包</view>
+        <view class='item' bindtap='toExaminationInfor'>
+          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <view class='inforBox'>
+            <view>
+              <view class='inforTitle'>
+                真题课程包
+              </view>
+              <view class='content'>
+                提分神奇，上岸必刷
+              </view>
+            </view>
+            <view class='buyBox'>
+              <view class='price'>
+                ￥798
+              </view>
+              <view class='number'>
+                2.3万人购买
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+     <view class='scrollItem'>
+      <view class='examinationView'>
+        <view class='title'>真题课程包</view>
+        <view class='item' bindtap='toExaminationInfor'>
+          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <view class='inforBox'>
+            <view>
+              <view class='inforTitle'>
+                真题课程包
+              </view>
+              <view class='content'>
+                提分神奇，上岸必刷
+              </view>
+            </view>
+            <view class='buyBox'>
+              <view class='price'>
+                ￥798
+              </view>
+              <view class='number'>
+                2.3万人购买
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+     <view class='scrollItem'>
+      <view class='examinationView'>
+        <view class='title'>真题课程包</view>
+        <view class='item' bindtap='toExaminationInfor'>
+          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <view class='inforBox'>
+            <view>
+              <view class='inforTitle'>
+                真题课程包
+              </view>
+              <view class='content'>
+                提分神奇，上岸必刷
+              </view>
+            </view>
+            <view class='buyBox'>
+              <view class='price'>
+                ￥798
+              </view>
+              <view class='number'>
+                2.3万人购买
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+     <view class='scrollItem'>
+      <view class='examinationView'>
+        <view class='title'>真题课程包</view>
+        <view class='item' bindtap='toExaminationInfor'>
+          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <view class='inforBox'>
+            <view>
+              <view class='inforTitle'>
+                真题课程包
+              </view>
+              <view class='content'>
+                提分神奇，上岸必刷
+              </view>
+            </view>
+            <view class='buyBox'>
+              <view class='price'>
+                ￥798
+              </view>
+              <view class='number'>
+                2.3万人购买
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+     <view class='scrollItem'>
+      <view class='examinationView'>
+        <view class='title'>真题课程包</view>
+        <view class='item' bindtap='toExaminationInfor'>
+          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <view class='inforBox'>
+            <view>
+              <view class='inforTitle'>
+                真题课程包
+              </view>
+              <view class='content'>
+                提分神奇，上岸必刷
+              </view>
+            </view>
+            <view class='buyBox'>
+              <view class='price'>
+                ￥798
+              </view>
+              <view class='number'>
+                2.3万人购买
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+     <view class='scrollItem'>
+      <view class='examinationView'>
+        <view class='title'>真题课程包</view>
+        <view class='item' bindtap='toExaminationInfor'>
+          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <view class='inforBox'>
+            <view>
+              <view class='inforTitle'>
+                真题课程包
+              </view>
+              <view class='content'>
+                提分神奇，上岸必刷
+              </view>
+            </view>
+            <view class='buyBox'>
+              <view class='price'>
+                ￥798
+              </view>
+              <view class='number'>
+                2.3万人购买
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+     <view class='scrollItem'>
+      <view class='examinationView'>
+        <view class='title'>真题课程包</view>
+        <view class='item' bindtap='toExaminationInfor'>
+          <image class='icon' src='../../imgs/examinationIcon.jpg'></image>
+          <view class='inforBox'>
+            <view>
+              <view class='inforTitle'>
+                真题课程包
+              </view>
+              <view class='content'>
+                提分神奇，上岸必刷
+              </view>
+            </view>
+            <view class='buyBox'>
+              <view class='price'>
+                ￥798
+              </view>
+              <view class='number'>
+                2.3万人购买
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </scroll-view>
+
+
+
 </view>
