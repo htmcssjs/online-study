@@ -1,6 +1,6 @@
 <view class="container">
   <view class="box">
-    <image class="img" src="../../imgs/user/下载_null.png"></image>
+    <image class="img" src="../../imgs/user/download-null.png"></image>
     <view class="word"></view>
   </view>
 </view>
