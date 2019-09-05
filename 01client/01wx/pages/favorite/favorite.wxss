@@ -13,7 +13,7 @@
   width: 700rpx;
   height: 160rpx;
   border-radius: 20rpx;
-  background: -webkit-linear-gradient(left,rgb(132, 167, 219), white);
+  background: -webkit-linear-gradient(left,rgb(112,154,246), white);
   display: flex;
   flex-direction: column;
 }
