@@ -21,13 +21,28 @@
   }
 .btn-area button{
   margin-top: 10rpx;
-  width: 45% ;
   border: 1rpx solid#21AAFF;
 }
 .btn-area .button{
+  display: flex;
+  flex-direction: row;
+}
+.btn-area .button image{
+  width: 100%;
+  height: 50%;
+}
+.btn-area .button-1{
+  position: relative;
+    left: -120rpx;
     text-align: center;
     color:#21AAFF;
     font-size: 25rpx;
+}
+.btn-area .button-2{
+   left: 0rpx;
+}
+.btn-area .button-3{
+   left: 100rpx;
 }
 .introduction{
     display: flex;

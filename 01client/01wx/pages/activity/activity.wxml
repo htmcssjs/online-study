@@ -7,7 +7,11 @@
 
   <view class="btn-area">
     <view class="input"><input bindblur="bindInputBlur" placeholder="请输入弹幕" /></view>
-    <button bindtap="bindSendDanmu" class="button">发送弹幕</button>
+    <view class="button">
+    <button bindtap="bindSendDanmu" class="button-1">发送弹幕</button>
+    <button bindtap="bindSendDanmu" class="button-1 button-2">下载</button>
+    <button bindtap="bindSendDanmu" class="button-1 button-3">收藏</button>
+    </view>
   </view>
   <view class="introduction">
     <text class="first">课程介绍</text>
