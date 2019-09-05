@@ -1,6 +1,28 @@
 <view class="container">
-  <view class="box">
-    <image class="img" src="../../imgs/user/download-null.png"></image>
-    <view class="word"></view>
+  <view class="box" wx:if="{{listing.length == 0}}">
+    <image class="img" src="../../imgs/user/download/download-null.png"></image>
+  </view>
+  <view wx:else>
+    <view class="download-topBar">
+      <view class="edit" bindtap="bianji">{{text}}</view>
+      <view class="edit" wx:if="{{isDelete}}" bindtap="deleteItem">删除</view>
+    </view>
+    <view class="download-listBox">
+      <view class="download-list-item" wx:for="{{listing}}" wx:key="key">
+          <image class="img" src='{{item.image}}' bindtap="toExaminationInfor"></image>
+          <view class="inforBox">
+            <view class=".download-inforTitleBox" bindtap="toExaminationInfor">
+              <view class="title">{{item.title}}</view>
+              <text class="cast">{{item.teacher}}</text>
+            </view>
+            <view class="download-infor-rightBox">
+              <view class="datasize">{{item.dataSize}}</view>
+              <view class="deleteButton" wx:if="{{isDelete}}" bindtap="deleteButton" data-id="{{item.id}}">
+                <image class="gou" src="../../imgs/user/download/gou.png" wx:if="{{item.isTap}}" data-id="{{item.id}}"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+    </view>
   </view>
 </view>
