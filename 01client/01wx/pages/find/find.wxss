@@ -6,9 +6,9 @@
 }
 .header .title{
     width:45%;
-    height: 200rpx;
-    margin-top: 20rpx;
-    margin-bottom: 20rpx;
+    height: 180rpx;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
     padding: 15rpx;  
 }
 

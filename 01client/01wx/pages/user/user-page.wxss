@@ -132,7 +132,7 @@
   border-radius: 20rpx;
   width: 650rpx;
   height: 200rpx;
-  background-color: rgb(112,154,246);
+ background: linear-gradient(to right, rgb(10, 185, 240) ,rgb(104, 185, 240) , rgb(140, 180, 250)); 
   padding: 30rpx;
   display: flex;
   flex-direction: column;
