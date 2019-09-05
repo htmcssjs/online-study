@@ -1,12 +1,16 @@
 {
   "pages": [
-    "pages/user/user-page",
-    "pages/lesson/lesson",
     "pages/find/find",
     "pages/activity/activity",
+
+    "pages/user/user-page",
+    "pages/lesson/lesson",
+
     "pages/wrong/wrong",
     "pages/favorite/favorite",
-    "pages/download/download"
+    "pages/download/download",
+    "pages/historyLesson/historyLesson"
+
   ],
   "window": {
     "backgroundTextStyle": "light",
