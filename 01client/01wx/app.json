@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/find/find",
     "pages/user/user-page",
     "pages/lesson/lesson",
-    "pages/find/find",
+    
     "pages/activity/activity",
     "pages/wrong/wrong",
     "pages/favorite/favorite",

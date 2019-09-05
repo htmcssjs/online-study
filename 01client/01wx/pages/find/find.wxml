@@ -1,11 +1,11 @@
 <!--index.wxml-->
 <view class="container">
     <view class="header">
-        <view class="title-1">
+        <view class="title">
           <image src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/photo.jpg"></image>
         </view>
-        <view class="title-2">
-         <image  src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/timg.jpg"></image>
+        <view class="title">
+         <image  src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/times.jpg"></image>
         </view>
     </view>
    

@@ -1,6 +1,9 @@
 .headr{
   width: 750rpx;
 }
+.headr image{
+  width: 100%;
+}
 .examinationView {
   width: 750rpx;
   display: flex;

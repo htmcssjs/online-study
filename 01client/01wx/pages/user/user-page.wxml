@@ -7,7 +7,7 @@
     <view class="head-nameBox">
       <view class="head-name">{{userName}}</view>
       <image class="head-icon-change" bindtap="changeName" src="../../imgs/user/change.png"></image>
-    </view>
+    </view> 
   </view>
   <view class="modelBox" catchtouchmove='preventTouchMove' wx:if='{{showModal}}'></view>
   <view class="modalChange" catchtouchmove='preventTouchMove' wx:if='{{showModal}}'>
