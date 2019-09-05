@@ -6,9 +6,10 @@ Page({
    */
   data: {
     imgUrls: [
-      'https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg ',
-      'https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg ',
-      'https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AP-%E7%AE%80%E4%BB%8B.jpg '
+      'https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson1.jpg  ',
+      'https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson2.jpg  ',
+      'https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson3.jpg  ',
+      'https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson4.jpg  '
     ]
   },
 
