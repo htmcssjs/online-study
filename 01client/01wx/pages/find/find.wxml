@@ -29,7 +29,7 @@
             <view class="item_left">
                 <view class="top"> TI-Nspire 图形计算器使用教程——基本操作教学</view>     
             </view>
-           <view class="item_right"> <image              src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AB%26BC.jpg"></image></view>
+           <view class="item_right"> <image              src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/runs.jpg"></image></view>
         </view>
         <view class='divider'></view>
 
@@ -89,10 +89,10 @@
       <scroll-view  style='height:{{height}}rpx; ' scroll-y="true">      
         <view class="item" bindtap="toActivity">
             <view class="item_left">
-                <view class="top">C联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+                <view class="top">AP计算机科学线上强化班</view>
                 <view class="bottom">活动 两周前</view>
             </view>
-            <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA.jpg"></image>
+            <image class="item_right" src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/run.jpg"></image>
         </view>
         <view class='divider'></view>
 
@@ -152,7 +152,7 @@
                 <view class="bottom">活动 两周前</view>
 
             </view>
-            <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%89%A9%E7%90%86.jpg "></image>
+            <image class="item_right" src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/wuli.jpg"></image>
         </view>
         <view class='divider'></view>
         <view class="item" bindtap="toActivity">
