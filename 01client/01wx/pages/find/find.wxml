@@ -1,9 +1,15 @@
 <!--index.wxml-->
 <view class="container">
     <view class="header">
-        <image src="../../imgs/index.png"></image>
-        <image src="../../imgs/user.png"></image>
+        <view class="title">
+          <image src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/photo.jpg"></image>
+        </view>
+        <view class="title">
+         <image  src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/times.jpg"></image>
+        </view>
     </view>
+   
+   <view>
     <scroll-view class='headerBox' scroll-x="true">
         <view class='headerItem' wx:for="{{topics}}" wx:key="index" wx:for-item="topic">
             <view class='headerItemView' bindtap='clickTopItem' data-yjs="{{index}}">
@@ -13,62 +19,178 @@
         </view>
     </scroll-view>
     <view class='divider'></view>
+   </view>
 
-    <scroll-view style='height:{{height}}rpx; ' scroll-y="true">
+
+ <!-- indexSelect==0   .................        -->
+      <view class='{{indexSelect==0?"tt":"ti"}}'>
+      <scroll-view  style='height:{{height}}rpx; ' scroll-y="true">
         <view class="item" bindtap="toActivity">
             <view class="item_left">
-                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
-
+                <view class="top"> TI-Nspire 图形计算器使用教程——基本操作教学</view>     
             </view>
-            <image class="item_right" src="../../imgs/index.png"></image>
+           <view class="item_right"> <image              src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/runs.jpg"></image></view>
         </view>
         <view class='divider'></view>
 
         <view class="item" bindtap="toActivity">
             <view class="item_left">
-                <view class="top">《MBA大师十二时辰》试卷答案公布！你答对几道？！</view>
-                <view class="bottom">活动 两周前</view>
-
+                <view class="top"> 《AP微积分满分教程》动画演示——已知截面固体体积</view>            
             </view>
-            <image class="item_right" src="../../imgs/index.png"></image>
+           <view class="item_right"> <image              src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AB%26BC.jpg"></image></view>
+        
         </view>
         <view class='divider'></view>
 
         <view class="item" bindtap="toActivity">
             <view class="item_left">
-                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
-
+                <view class="top">《AP微积分满分教程》动画演示——黎曼和（Riemann Sum）</view>
+              
             </view>
-            <image class="item_right" src="../../imgs/index.png"></image>
+           <view class="item_right"> <image              src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/AB%26BC.jpg"></image></view>
         </view>
         <view class='divider'></view>
-
-        <view class="item" bindtap="toActivity">
-            <view class="item_left">
-                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
-
-            </view>
-            <image class="item_right" src="../../imgs/index.png"></image>
-        </view>
-        <view class='divider'></view>
-
-        <view class="item" bindtap="toActivity">
-            <view class="item_left">
-                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
-
-            </view>
-            <image class="item_right" src="../../imgs/index.png"></image>
-        </view>
-        <view class='divider'></view>
-
-
     </scroll-view>
+      </view>
+       
+       
+
+    <!-- indexSelect==1   .................        -->
+    <view class='{{indexSelect==1?"tt":"ti"}}'>
+      <scroll-view  style='height:{{height}}rpx; ' scroll-y="true">
+       
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">B《MBA大师十二时辰》试卷答案公布！你答对几道？！</view>
+               
+            </view>
+            <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%BB%8F%E6%B5%8E%E5%AD%A61.jpg "></image>
+        </view>
+        <view class='divider'></view>
+
+
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+               
+            </view>
+            <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%BB%8F%E6%B5%8E%E5%AD%A62.jpg "></image>
+        </view>
+        <view class='divider'></view>
+    </scroll-view>
+      </view>
 
 
 
+
+   <!-- indexSelect==2   .................        -->
+    <view class='{{indexSelect==2?"tt":"ti"}}'>
+      <scroll-view  style='height:{{height}}rpx; ' scroll-y="true">      
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+
+                <view class="top">C联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+              
+                <view class="top">AP计算机科学线上强化班</view>
+                <view class="bottom">活动 两周前</view>
+
+            </view>
+            <image class="item_right" src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/run.jpg"></image>
+        </view>
+        <view class='divider'></view>
+
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+               
+            </view>
+            <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA.jpg"></image>
+        </view>
+        <view class='divider'></view>
+
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+                
+            </view>
+             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA.jpg"></image>
+        </view>
+        <view class='divider'></view>
+    </scroll-view>
+      </view>
+
+
+
+      <!-- indexSelect==3   .................        -->
+    <view class='{{indexSelect==3?"tt":"ti"}}'>
+      <scroll-view  style='height:{{height}}rpx; ' scroll-y="true">
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">D联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+              
+
+            </view>
+            <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E5%8C%96%E5%AD%A6.jpg"></image>
+        </view>
+        <view class='divider'></view>
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+             
+            </view>
+             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E5%8C%96%E5%AD%A6.jpg"></image>
+        </view>
+        <view class='divider'></view>
+    </scroll-view>
+      </view>
+
+
+
+        <!-- indexSelect==4   .................        -->
+    <view class='{{indexSelect==4?"tt":"ti"}}'>
+      <scroll-view  style='height:{{height}}rpx; ' scroll-y="true">      
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">E联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+               
+
+            </view>
+            <image class="item_right" src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/wuli.jpg"></image>
+        </view>
+        <view class='divider'></view>
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+               
+            </view>
+           <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%89%A9%E7%90%86.jpg "></image>
+        </view>
+        <view class='divider'></view>
+    </scroll-view>
+      </view>
+
+
+        <!-- indexSelect==5   .................        -->
+    <view class='{{indexSelect==5?"tt":"ti"}}'>
+      <scroll-view  style='height:{{height}}rpx; ' scroll-y="true"> 
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">F联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+               
+            </view>
+            <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%BB%9F%E8%AE%A1%E5%AD%A6.jpg "></image>
+        </view>
+        <view class='divider'></view>
+
+        <view class="item" bindtap="toActivity">
+            <view class="item_left">
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
+              
+            </view>
+            <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%BB%9F%E8%AE%A1%E5%AD%A6.jpg "></image>
+        </view>
+        <view class='divider'></view>
+    </scroll-view>
+      </view>
 
 </view>

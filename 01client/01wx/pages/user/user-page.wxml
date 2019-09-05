@@ -19,6 +19,21 @@
         <view class='modelButton modelButton-yes' bindtap='ok'>确定</view>
         <view class='modelButton modelButton-back' bindtap='back'>返回</view>
       </view>
+=======
+    </view> 
+  </view>
+  <view class="modelBox" catchtouchmove='preventTouchMove' wx:if='{{showModal}}'></view>
+  <view class="modalChange" catchtouchmove='preventTouchMove' wx:if='{{showModal}}'>
+    <view class='windowRow'>
+      <text class='userTitle'>修改名称</text>
+    </view>
+    <view class='newName'>
+      <input bindinput='newNameInput' placeholder=' {{userName}}' class='newName-input'></input>
+    </view>
+    <view class='modelButtonBox'>
+      <view class='modelButton modelButton-yes' bindtap='ok'>确定</view>
+      <view class='modelButton modelButton-back' bindtap='back'>返回</view>
+>>>>>>> 468db80d5643cc47d5554bd97eb9d3a485b03b11
     </view>
   </view>
   <view class="modelBox" catchtouchmove='preventTouchMove' wx:if='{{showModal}}'></view>

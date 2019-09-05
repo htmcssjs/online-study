@@ -123,14 +123,14 @@
 }
 
 /**
-*我的课程
+* 我的课程
 */
 .course {
   margin: 0 auto;
   border-radius: 20rpx;
   width: 650rpx;
   height: 200rpx;
-   background: linear-gradient(rgb(89, 128, 184), white,rgb(140, 172, 219));
+   background: linear-gradient(rgb(112,154,246), white,rgb(112,154,246));
   padding: 30rpx;
 }
 .course .course-first {

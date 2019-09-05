@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    tempFilePaths: "../../imgs/user/user-head.png",
+    tempFilePaths: "../../imgs/user/touxiang.jpg",
     userName: "user",
     showModal: false,
     textV: ''
