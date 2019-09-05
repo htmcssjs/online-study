@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="box">
+    <view class="box0">
+      <view class="boxFavorite">
+        <view class="favorite01">高等数学第八章</view>
+        <view class="favorite02">讲师：王志军</view>
+
+      </view>
+
+    </view>
+    <view class="box0">
+      <view class="boxFavorite">
+        <view class="favorite01">线性代数第十讲</view>
+        <view class="favorite02">讲师：李雪</view>
+
+      </view>
+
+    </view>
+  </view>
+</view>
