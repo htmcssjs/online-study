@@ -11,8 +11,6 @@
   
   
  <view class="body">
- <view class="separate-1"></view>
-
   <scroll-view  style='height:{{height}}rpx; ' scroll-y="true">
   <view class="title">
     精选课堂

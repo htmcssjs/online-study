@@ -1,9 +1,33 @@
 /* pages/examinationInfor/examinationInfor.wxss */
-.btn-area{
-    margin: 20rpx
+.section{
+  width: 750rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.section .Video{
+  margin-top: 10rpx;
+ background:black;
+}
+.btn-area{ 
+  position: relative;
+   margin: 30rpx;  
+  }
+.btn-area .input{
+  width: 150%;
+    position: relative;
+    left: -100rpx;
+  }
 .btn-area button{
-    margin-top: 20rpx
+  margin-top: 10rpx;
+  width: 45% ;
+  border: 1rpx solid#21AAFF;
+}
+.btn-area .button{
+    text-align: center;
+    color:#21AAFF;
+    font-size: 25rpx;
 }
 .introduction{
     display: flex;
@@ -11,7 +35,7 @@
     justify-content: space-around
 }
 .introduction .first{
-    margin-top: 20rpx;
+    margin-top: 50rpx;
     font-size: 40rpx;
     margin-left: 20rpx;
     margin-bottom: -20rpx;

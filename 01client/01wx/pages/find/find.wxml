@@ -62,8 +62,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">B《MBA大师十二时辰》试卷答案公布！你答对几道？！</view>
-                <view class="bottom">活动 两周前</view>
-
+               
             </view>
             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%BB%8F%E6%B5%8E%E5%AD%A61.jpg "></image>
         </view>
@@ -73,7 +72,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
+               
             </view>
             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%BB%8F%E6%B5%8E%E5%AD%A62.jpg "></image>
         </view>
@@ -90,7 +89,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">C联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
+              
             </view>
             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA.jpg"></image>
         </view>
@@ -99,7 +98,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
+               
             </view>
             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA.jpg"></image>
         </view>
@@ -108,7 +107,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
+                
             </view>
              <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA.jpg"></image>
         </view>
@@ -124,7 +123,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">D联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
+              
 
             </view>
             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E5%8C%96%E5%AD%A6.jpg"></image>
@@ -133,7 +132,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
+             
             </view>
              <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E5%8C%96%E5%AD%A6.jpg"></image>
         </view>
@@ -149,7 +148,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">E联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
+               
 
             </view>
             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%89%A9%E7%90%86.jpg "></image>
@@ -158,7 +157,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
+               
             </view>
            <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%89%A9%E7%90%86.jpg "></image>
         </view>
@@ -173,7 +172,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">F联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
+               
             </view>
             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%BB%9F%E8%AE%A1%E5%AD%A6.jpg "></image>
         </view>
@@ -182,7 +181,7 @@
         <view class="item" bindtap="toActivity">
             <view class="item_left">
                 <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                <view class="bottom">活动 两周前</view>
+              
             </view>
             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E7%BB%9F%E8%AE%A1%E5%AD%A6.jpg "></image>
         </view>

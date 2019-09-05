@@ -1,10 +1,11 @@
 {
   "pages": [
+    
     "pages/find/find",
     "pages/user/user-page",
     "pages/lesson/lesson",
-    
     "pages/activity/activity",
+   
     "pages/wrong/wrong",
     "pages/favorite/favorite",
     "pages/download/download"
