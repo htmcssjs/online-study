@@ -18,7 +18,7 @@
 }
 
 .examinationView .item {
-  margin-top: 40rpx;
+  margin-top: 30rpx;
   display: flex;
   flex-direction: row;
 }
@@ -94,7 +94,7 @@
    margin-bottom: 10rpx;
 }
 .body .title{
-  color: rgba(0, 174, 255, 0.712);
+  color: rgba(15, 17, 19, 0.712);
   font-weight: 700;
   font-size: 40rpx;
 }
