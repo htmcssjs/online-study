@@ -52,6 +52,7 @@
 
 .body{
   margin-top: 20rpx;
+  margin-left: 10rpx;
    display: flex;
   flex-direction: column;
   justify-content: center;

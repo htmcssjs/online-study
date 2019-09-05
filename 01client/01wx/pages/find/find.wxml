@@ -87,13 +87,8 @@
     <view class='{{indexSelect==2?"tt":"ti"}}'>
       <scroll-view  style='height:{{height}}rpx; ' scroll-y="true">      
         <view class="item" bindtap="toActivity">
-            <view class="item_left">
-
-                <view class="top">C联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-              
-                <view class="top">AP计算机科学线上强化班</view>
-                <view class="bottom">活动 两周前</view>
-
+            <view class="item_left">          
+                <view class="top">AP计算机科学线上强化班</view>          
             </view>
             <image class="item_right" src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/run.jpg"></image>
         </view>
@@ -101,8 +96,7 @@
 
         <view class="item" bindtap="toActivity">
             <view class="item_left">
-                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-               
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>              
             </view>
             <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA.jpg"></image>
         </view>
@@ -110,8 +104,7 @@
 
         <view class="item" bindtap="toActivity">
             <view class="item_left">
-                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
-                
+                <view class="top">联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>                
             </view>
              <image class="item_right" src="https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/%E8%AE%A1%E7%AE%97%E6%9C%BA.jpg"></image>
         </view>
