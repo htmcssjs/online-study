@@ -88,13 +88,12 @@
       <scroll-view  style='height:{{height}}rpx; ' scroll-y="true">      
         <view class="item" bindtap="toActivity">
             <view class="item_left">
-<<<<<<< HEAD
+
                 <view class="top">C联考考研，8月份备考真的来得及吗？(内置干货&惊喜)</view>
               
-=======
                 <view class="top">AP计算机科学线上强化班</view>
                 <view class="bottom">活动 两周前</view>
->>>>>>> bd40a0d6ef240fde2c1e81e8c5d91be5ab6fae7f
+
             </view>
             <image class="item_right" src="https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/run.jpg"></image>
         </view>
