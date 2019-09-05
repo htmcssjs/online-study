@@ -4,8 +4,7 @@ Page({
   /**
    * 页面的初始数据
    */
-  data: {
-    tempFilePaths: "../../imgs/user/touxiang.jpg",
+  data: { tempFilePaths:"https://imgs-1300160165.cos.ap-chengdu.myqcloud.com/cat.jpg ",
     userName: "user",
     showModal: false,
     textV: ''

@@ -29,12 +29,23 @@ Page({
     })
 
   },
+  toTINspire: function () {
+    wx.navigateTo({
+      url: '../activity-TINspire/activity',
+    })
+  },  
+  toCross: function () {
+    wx.navigateTo({
+      url: '../activity-cross/activity',
+    })
+  },
   toExaminationInfor: function () {
     wx.navigateTo({
       url: '../activity/activity',
     })
   },
 
+  
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

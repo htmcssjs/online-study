@@ -17,7 +17,7 @@
   </view>
     <view class='scrollItem'>
       <view class='examinationView'>
-        <view class='item' bindtap='toExaminationInfor'>
+        <view class='item' bindtap='toTINspire'>
           <image class='icon' src='https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson7.jpg '></image>
           <view class='inforBox'>
             <view>
@@ -36,7 +36,7 @@
 
       <view class='scrollItem'>
       <view class='examinationView'>
-        <view class='item' bindtap='toExaminationInfor'>
+        <view class='item' bindtap='toCross'>
           <image class='icon' src='https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson6.jpg '></image>
           <view class='inforBox'>
             <view>

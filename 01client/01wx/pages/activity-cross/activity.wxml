@@ -1,7 +1,7 @@
 <!--pages/examinationInfor/examinationInfor.wxml-->
 <view class="section">
   <view class="Video">
-    <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+    <video id="myVideo" src="https://video-01-1300160165.cos.ap-chengdu.myqcloud.com/jiemian.mp4"
       enable-danmu danmu-btn controls></video>
   </view>
 
@@ -16,7 +16,7 @@
   <view class="introduction">
     <text class="first">课程介绍</text>
     <text class="second">
-               概率论与数理统计课程既是数学与应用数学和信息与计算科学专业的专业必修课，也是非数学类各专业的一门重要的基础数学课程。作为现代数学的一个重要分支，它主要研究自然界、人类社会及技术过程中大量随机现象的统计性规律
+               截面法,就是指重积分的方法。选择一个任意截面,写出二重积分表达式,然后对第三维积分。
             </text>
   </view>
 </view>

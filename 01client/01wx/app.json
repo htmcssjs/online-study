@@ -1,16 +1,15 @@
 {
   "pages": [
+    "pages/lesson/lesson",
     "pages/find/find",
     "pages/activity/activity",
-
     "pages/user/user-page",
-    "pages/lesson/lesson",
-
     "pages/wrong/wrong",
     "pages/favorite/favorite",
     "pages/download/download",
-    "pages/historyLesson/historyLesson"
-
+    "pages/historyLesson/historyLesson",
+    "pages/activity-TINspire/activity",
+    "pages/activity-cross/activity"
   ],
   "window": {
     "backgroundTextStyle": "light",

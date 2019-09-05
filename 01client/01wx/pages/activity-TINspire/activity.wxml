@@ -1,7 +1,7 @@
 <!--pages/examinationInfor/examinationInfor.wxml-->
 <view class="section">
   <view class="Video">
-    <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+    <video id="myVideo" src="https://video-01-1300160165.cos.ap-chengdu.myqcloud.com/TI-Nspire.mp4"
       enable-danmu danmu-btn controls></video>
   </view>
 
@@ -16,7 +16,7 @@
   <view class="introduction">
     <text class="first">课程介绍</text>
     <text class="second">
-               概率论与数理统计课程既是数学与应用数学和信息与计算科学专业的专业必修课，也是非数学类各专业的一门重要的基础数学课程。作为现代数学的一个重要分支，它主要研究自然界、人类社会及技术过程中大量随机现象的统计性规律
+             TI-Nspire™ CX-C CAS 彩屏图形计算器 [1]  是一种既能计算又能作图的新型的数学使用工具，它具备符号代数系统、几何操作系统、数据分析系统等，可以直观地绘制各种图形，并进行动态演示、跟踪轨迹。
             </text>
   </view>
 </view>
