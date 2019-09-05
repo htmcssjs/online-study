@@ -1,7 +1,7 @@
 <!--pages/wrong/wrong.wxml-->
 <view class="container">
   <view class="box">
-    <image class="img" src="../../imgs/user/wrong01.png"></image>
+    <image class="img" src="../../imgs/user/wrong.png"></image>
     <view class="word">暂无错题</view>
   </view>
 </view>
