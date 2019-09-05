@@ -13,7 +13,7 @@
   width: 700rpx;
   height: 160rpx;
   border-radius: 20rpx;
-  background: -webkit-linear-gradient(left,rgb(132, 167, 219), white);
+  background: linear-gradient(to right, rgb(10, 185, 240) ,rgb(104, 185, 240) , rgb(140, 180, 250)); 
   display: flex;
   flex-direction: column;
 }
@@ -28,8 +28,9 @@
 }
 .favorite01{
   font-size: 40rpx;
+  color: white;
 }
 .favorite02{
-  color: rgb(105, 103, 103);
+  color: white;
   font-size: 35rpx;
 }
