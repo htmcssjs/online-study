@@ -5,7 +5,37 @@ Page({
    * 页面的初始数据
    */
   data: {
+    isDelete: false,
+    text: "编辑",
+    text1: "编辑",
+    text2: "完成",
+    deleteIndex: 0,
+    listing: [
+      {
+        id: 0,
+        title: "AP-Riemann Sum",
+        image: "https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson5.jpg",
+        teacher: ["孙宗义"],
+        dataSize: "201.4MB",
+        isTap: false,
+        url: '../activity/activity',
+      },
+      {
+        id: 1,
+        title: "AP-Disk Method",
+        image: "https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson6.jpg",
+        teacher: ["孙宗义"],
+        dataSize: "254.2MB",
+        isTap: false,
+        url: '../activity/activity',
+      }
+    ],
+  },
 
+  toExaminationInfor: function () {
+    wx.navigateTo({
+      url: '../activity/activity',
+    })
   },
 
   /**

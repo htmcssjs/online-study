@@ -13,19 +13,21 @@ Page({
     listing: [
       {
         id: 0,
-        title: "高等数学第八章",
-        image: "../../imgs/user/download/gaodengshuxue.png",
-        teacher: ["王志军"],
-        dataSize: "1.3G",
-        isTap: false
+        title: "AP-Riemann Sum",
+        image: "https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson5.jpg",
+        teacher: ["孙宗义"],
+        dataSize: "201.4MB",
+        isTap: false,
+        url: '../activity/activity',
       },
       {
         id: 1,
-        title: "线性代数第十讲",
-        image: "../../imgs/user/download/xianxingdaishu.png",
-        teacher: ["李雪"],
-        dataSize: "1.1G",
-        isTap: false
+        title: "AP-Disk Method",
+        image: "https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson6.jpg",
+        teacher: ["孙宗义"],
+        dataSize: "254.2MB",
+        isTap: false,
+        url: '../activity/activity',
       }
     ],
   },
@@ -80,6 +82,12 @@ Page({
     }
     that.setData({
       listing:listing
+    })
+  },
+
+  toExaminationInfor: function () {
+    wx.navigateTo({
+      url: '../activity/activity',
     })
   },
 

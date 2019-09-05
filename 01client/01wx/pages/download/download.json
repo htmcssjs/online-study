@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+    "navigationBarBackgroundColor": "#21AAFF",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "下载管理",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
 }

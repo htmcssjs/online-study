@@ -3,28 +3,72 @@
 .container {
   width: 750rpx;
 }
-.box {
-  margin:  0 auto;
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  width: 750rpx;
+  height: 1000rpx;
+}
+
+/**
+* 列表
+*/
+.download-listBox {
+  margin-top: 10rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.download-list-item {
   width: 700rpx;
-  height: 290rpx;
+  height: 180rpx;
+  margin: 0 20rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
-.box0 {
-  margin: 40rpx 0;
-  width: 700rpx;
-  height: 250rpx;
-  border-radius: 20rpx;
-  background: -webkit-linear-gradient(left,rgb(132, 167, 219), white);
+.download-list-item .img {
+  width: 300rpx;
+  height: 180rpx;
 }
-.boxFavorite{
-  margin: 30rpx  0 0 50rpx;
-  width: 600rpx;
-  padding-top: 10rpx;
+.download-list-item .inforBox {
+  width: 370rpx;
+  height: 180rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.favorite01{
-  margin: 35rpx 0;
-  font-size: 40rpx;
+.download-inforTitleBox{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100rpx;
 }
-.favorite02{
-  color: rgb(105, 103, 103);
-  font-size: 35rpx;
+
+.download-inforTitleBox .title {
+  color: #333;
+  font-size: 30rpx;
+}
+
+.download-inforTitleBox .cast {
+  color: #999;
+  font-size: 26rpx;
+}
+
+.download-infor-rightBox {
+  margin-top: 20rpx;
+  height: 120rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.download-infor-rightBox .datasize {
+  color: #999;
+  font-size: 26rpx;
 }
