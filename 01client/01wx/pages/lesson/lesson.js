@@ -6,10 +6,10 @@ Page({
    */
   data: {
     imgUrls: [
-  'https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson1.jpg  ',
+      'https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson4.jpg  ',
       'https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson2.jpg  ',
       'https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson3.jpg  ',
-      'https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson4.jpg  '
+      'https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson1.jpg  '
     ]
   },
 

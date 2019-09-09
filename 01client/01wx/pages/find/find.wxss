@@ -1,3 +1,5 @@
+
+
 .header{
     display: flex;
     flex-direction: row;
@@ -12,12 +14,19 @@
     padding: 15rpx;  
 }
 
+.header .title {
+  width: 45%;
+  height: 180rpx;
+  margin: 15rpx 0;
+  padding: 15rpx;
+}
 
-.header  image{
+.header  image {
   width: 100%;
   height: 100%;
-   border-radius: 50rpx;
+  border-radius: 50rpx;
 }
+
 .headerBox {
   width: 700rpx;
   white-space: nowrap;
@@ -25,16 +34,16 @@
 
 .headerItem {
   display: inline-block;
-  padding-left: 40rpx;
-  padding-right: 40rpx;
+  padding: 0 40rpx;
 }
 
 .headerItemView {
   display: flex;
   flex-direction: column;
-  height: 80rpx;
+  height: 75rpx;
   justify-content: space-between;
   align-items: center;
+  margin-top: 15rpx;
 }
 
 .title {
@@ -43,14 +52,14 @@
 }
 
 .titleSelect {
-  color: #21AAFF;
-  font-size: 36rpx;
+  color: #21aaff;
+  font-size: 37rpx;
 }
 
 .line {
   width: 50%;
   height: 10rpx;
-  background: #21AAFF;
+  background: #21aaff;
   border-radius: 5rpx;
 }
 
@@ -60,41 +69,51 @@
   background: #dbe2f3;
 }
 
-.item{
-   
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 222rpx;
+
 }
-.item_left{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 240rpx;
-    height: 220rpx
+
+.item_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 240rpx;
+  height: 200rpx;
+
 }
-.item_right{
-    width: 220rpx;
-    height: 200rpx
+
+.item_right {
+  width: 340rpx;
+  height: 200rpx;
+
 }
-.item_right image{
+
+.item_right image {
   width: 100%;
-  height: 100%
+  height: 100%;
 }
-.top{
-    font-size: 25rpx;
-    color: #000000
-}
-.bottom{
+
+.top {
   font-size: 25rpx;
-      color: #525252;
+  color: #000;
 }
-.ti{
+
+.bottom {
+  font-size: 25rpx;
+  color: #525252;
+}
+
+.ti {
   position: absolute;
   display: none;
-  }
-.tt{
+}
+
+.tt {
   display: block;
   position: absolute;
 }
