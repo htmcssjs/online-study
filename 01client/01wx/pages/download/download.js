@@ -10,26 +10,29 @@ Page({
     text1: "编辑",
     text2: "完成",
     deleteIndex: 0,
-    listing: [
-      {
-        id: 0,
-        title: "AP-Riemann Sum",
-        image: "https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson5.jpg",
-        teacher: ["孙宗义"],
-        dataSize: "201.4MB",
-        isTap: false,
-        url: '../activity/activity',
-      },
-      {
-        id: 1,
-        title: "AP-Disk Method",
-        image: "https://cmyk-1300160178.cos.ap-chengdu.myqcloud.com/lesson6.jpg",
-        teacher: ["孙宗义"],
-        dataSize: "254.2MB",
-        isTap: false,
-        url: '../activity/activity',
+    listing: [],
+    url: null
+  },
+
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function(options) {
+    let that = this;
+    //获得后台服务的数据
+    wx.request({
+      url: 'http://192.168.3.99:8888/listing',
+      success: function(res) {
+        if (res.statusCode == 200) {
+          console.log(res.data);
+          let listing = res.data;
+          that.setData({
+            listing: listing
+          });
+        }
       }
-    ],
+    })
   },
 
   bianji: function() {
@@ -51,29 +54,25 @@ Page({
 
   deleteButton: function(e) {
     let that = this;
-    let buffer ='listing['+e.target.dataset.id+'].isTap';
+    let buffer = 'listing[' + e.target.dataset.id + '].isTap';
     let id = e.target.dataset.id;
     let listing = this.data.listing;
     let nowState = this.data.listing[id].isTap;
     that.setData({
       [buffer]: !nowState
     })
-    console.log(id);
-    console.log(listing[id].isTap);
   },
 
-  deleteItem: function(e){
+  deleteItem: function(e) {
     let that = this;
     let listing = this.data.listing;
     let length = listing.length;
-    console.log(listing);
-    for(let i = 0;i<length;i++){
-      console.log(i);
-      if (listing[i].isTap == true){
+    for (let i = 0; i < length; i++) {
+      if (listing[i].isTap == true) {
         this.data.deleteIndex++;
         let deleteIndex = this.data.deleteIndex;
-        for (let j = i; j < length - deleteIndex;j++){
-          listing[j+1].id--;
+        for (let j = i; j < length - deleteIndex; j++) {
+          listing[j + 1].id--;
         }
         listing.splice(i, 1);
         i--;
@@ -81,21 +80,14 @@ Page({
       }
     }
     that.setData({
-      listing:listing
+      listing: listing
     })
   },
 
-  toExaminationInfor: function () {
+  toExaminationInfor: function() {
     wx.navigateTo({
       url: '../activity/activity',
     })
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function(options) {
-
   },
 
   /**

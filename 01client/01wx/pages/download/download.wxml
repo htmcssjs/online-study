@@ -1,6 +1,6 @@
 <view class="container">
   <view class="box" wx:if="{{listing.length == 0}}">
-    <image class="img" src="../../imgs/user/download/download-null.png"></image>
+    <image class="img" src="../../imgs/user/download/gou.png"></image>
   </view>
   <view wx:else>
     <view class="download-topBar">
@@ -16,7 +16,7 @@
               <text class="cast">{{item.teacher}}</text>
             </view>
             <view class="download-infor-rightBox">
-              <view class="datasize">{{item.dataSize}}</view>
+              <view class="datasize">{{item.dataSize}}MB</view>
               <view class="deleteButton" wx:if="{{isDelete}}" bindtap="deleteButton" data-id="{{item.id}}">
                 <image class="gou" src="../../imgs/user/download/gou.png" wx:if="{{item.isTap}}" data-id="{{item.id}}"></image>
               </view>
